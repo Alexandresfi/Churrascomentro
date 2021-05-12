@@ -22,8 +22,8 @@ function calcular (){
         p.innerHTML+="<br>"+carne+"kg de carne <br>";
         p.innerHTML+= queijo+" espetinhos de queijo <br>";
         p.innerHTML+= pao+" unidades de pães de alho <br>";
-        p.innerHTML +=cerveja+"litros de cerveja <br>";
-        p.innerHTML +=liqui+"litros de água/refri";
+        p.innerHTML +=cerveja+" litros de cerveja <br>";
+        p.innerHTML +=liqui+" litros de água/refri";
 
     }else{
         
