@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylechurrasco.css" rel="stylesheet" type>
+    <link rel="icon" href="/image/churrasqueira-eletrica.png" type="image/png">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Churrascômetro</h1>
+
+        <input class="edi" id="adu" type="number" placeholder="Quantidade de adultos" name="Quantidade de adultos"> <br>
+
+        <input class="edi" id="cri" type="number" placeholder="Quantidade de criança" name="Quantidade de criança"> <br>
+
+        <input class="edi" id="hora" type="number" placeholder="Duração (horas)" name="Duração (horas)"> <br>
+
+        <input id="envi" type="submit" value="calcular">
+        <div>
+            <p id="caixa">Diremos as quantidades necessárias de:</p>
+            <a> <img id="carne" src="/image/bife.png"></a>
+            <a> <img id="queijo" src="/image/queijo.png"> </a>
+            <a> <img id="aperitivo" src="/image/aperitivo.png"> </a>
+            <a> <img id="cerveja" src="/image/garrafa-de-cerveja.png"> </a>
+            <a> <img id="refrigerante" src="/image/garrafa-de-refrigerante.png"> </a>
+        </div>
+        <div>
+            <p id="mostrar"></p>
+        </div>
+    </div>
+    <!--O programa vai dizer a quantidade de carne, cerveja, água/refrigerante será consimido em um churrasco deacordo
+    com a quantidade de pessoas e horas-->
+
+    <script src="churasco.js"></script>
+</body>
+</html>
